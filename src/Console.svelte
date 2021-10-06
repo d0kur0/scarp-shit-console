@@ -62,13 +62,13 @@ function handleLongChange(event) {
 <div class="console-overlay">
 	<div class="console-body">
 		<div class="console-header">
-			Настройки вашего гавна
+			Настройки вот этого самого
 			<button on:click="{onClose}" class="console-close-button">Закрыть</button>
 		</div>
 
 		<div class="console-content">
 			<fieldset>
-				<legend>Затирать гавно, если:</legend>
+				<legend>Затирать значения, если:</legend>
 				S LONG меньше
 				<input
 					type="text"
@@ -84,7 +84,7 @@ function handleLongChange(event) {
 					class="input-value" />
 			</fieldset>
 			<div class="divider"></div>
-			fuck2
+			...
 		</div>
 	</div>
 </div>

@@ -40,6 +40,6 @@ function handleOpen() {
 	{#if isOpen}
 		<Console onClose="{() => (isOpen = false)}" />
 	{:else}
-		<button on:click="{handleOpen}" class="open-button">Open shit console</button>
+		<button on:click="{handleOpen}" class="open-button">Open settings</button>
 	{/if}
 </main>
